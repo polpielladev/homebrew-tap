@@ -7,6 +7,6 @@ class ChattyCli < Formula
   version "1.0.1"
   
   def install
-    bin.install "chatty-cli"
+    bin.install "chatty"
   end
 end
