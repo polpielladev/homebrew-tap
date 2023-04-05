@@ -1,10 +1,10 @@
 class ChattyCli < Formula
   desc "A command line application to interact with ChatGPT directly from the terminal"
   homepage ""
-  url "https://github.com/polpielladev/chatty-cli/archive/v1.0.2.tar.gz"
-  sha256 "a258e0d6d96488bbcb01b51a97e2370185c0207aea7a31565f48716060eabf56"
+  url "https://github.com/polpielladev/chatty-cli/releases/download/v1.0.4/v1.0.4.tar.gz"
+  sha256 "9d8abd2851b4688b4ec16da9d8420ca4fe43a796d6a92c0f94e13d364dde9142"
   license ""
-  version "1.0.2"
+  version "1.0.4"
   
   def install
     bin.install "chatty"
